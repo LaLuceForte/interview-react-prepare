@@ -1,0 +1,17 @@
+.collapse-expand-btn {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.151);
+  border: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
