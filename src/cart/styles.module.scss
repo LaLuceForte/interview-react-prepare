@@ -1,0 +1,61 @@
+.cart {
+  display: flex;
+  gap: 200px;
+}
+
+.item {
+  width: 600px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.quantityInput {
+  width: 200px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.itemName {
+  width: 100px;
+}
+
+.quantityButton {
+  cursor: pointer;
+  background-color: azure;
+  border: 1px solid black;
+  margin-left: 5px;
+  transition: transform 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.quantity {
+  width: 50px;
+  margin-left: 20px;
+  flex: 1;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.deleteButton {
+  color: red;
+  background-color: unset;
+  cursor: pointer;
+  transition: transform 0.5s;
+  &:hover {
+    transform: scale(1.1);
+  }
+  margin-left: 20px;
+}
+
+.addingForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
